@@ -135,5 +135,14 @@ del vencedor debe mostrarse por pantalla.
         console.log(usr2);
         console.log(compare(usr1, usr2));
 
+### Ejercicio 6
+
+Desarrolle un algoritmo que permita reemplazar los elementos de una lista de la siguiente manera:
+Si el número de la lista es par reemplazar por la palabra manzana.
+Si el número de la lista es impar reemplazar por la palabra peras.
+Ejemplo:
+[10, 0, -8, 1, 2, 90, 100, 5, 0, 0];
+Devolvería:
+[ "manzana", "manzana", "manzana", "pera", "manzana", "manzana", "manzana", "pera", "manzana", "manzana" ]
 
        
