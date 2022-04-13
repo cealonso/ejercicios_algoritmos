@@ -148,3 +148,25 @@ Devolvería:
 [ "manzana", "manzana", "manzana", "pera", "manzana", "manzana", "manzana", "pera", "manzana", "manzana" ]
 
        
+### Ejercicio 7
+
+Realizar un algoritmo que dado dos números indicar si son números opuestos. Los números son opuestos cuando tienen el mismo módulo (es decir, están a la misma distancia desde el cero con signo contrario). Para realizar este algoritmo debe validarse que el primer número sea positivo y el segundo número sea negativo.
+
+Ejemplo:
+
+console.log(test(4,-4)) devuelve true.
+
+console.log(test(8,-4)) devuelve false.
+
+console.log(test(-6,-5)) devuelve false.
+
+console.log(test(7,2)) devuelve false.
+
+     function test(a,b){
+             if ((a>0) && (b<0) && (a==(-1)*b)){
+                 return true;
+             }
+             return false;
+     }
+
+      
