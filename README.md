@@ -162,11 +162,13 @@ console.log(test(-6,-5)) devuelve false.
 
 console.log(test(7,2)) devuelve false.
 
-     function test(a,b){
-             if ((a>0) && (b<0) && (a==(-1)*b)){
-                 return true;
-             }
-             return false;
+     function test(a, b) {
+            if ((a > 0) && (b < 0) && (a == (-1) * b)) {
+                return true;
+            }
+            else {
+                return false;
+            }
      }
 
       
